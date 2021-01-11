@@ -1,0 +1,283 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;900&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+/* Icons */
+.fa-facebook-f {
+  color: #4267b2;
+}
+.fa-linkedin-in {
+  color: #0e76a8;
+}
+.fa-twitter {
+  color: #1da1f2;
+}
+.fab.fa-facebook-f,
+.fab.fa-twitter,
+.fab.fa-linkedin-in {
+  font-size: 15px;
+}
+body,
+html {
+  height: 100%;
+  width: 100%;
+  line-height: 1.7;
+  background-color: #ffffff !important;
+  font-family: "Montserrat", sans-serif;
+  scroll-behavior: smooth;
+}
+.navbar {
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.05),
+    inset 0 -1px 0 rgba(0, 0, 0, 0.1);
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  z-index: 1;
+  width: 100%;
+  background-color: #ffffff !important;
+  /* background-color: white !important; */
+}
+
+.navbar-brand {
+  margin: 0em 3em;
+  font-weight: 800;
+  color: #000;
+}
+
+.navbar-brand::first-letter {
+  color: rgb(72, 164, 192);
+  font-size: 25px;
+}
+
+.navbar-toggler,
+.navbar-toggler-icon {
+  outline: none;
+}
+
+.nav-item {
+  margin: 2px;
+}
+
+.nav-item .nav-link {
+  text-transform: uppercase;
+  color: rgb(1, 4, 5);
+  font-size: 12px;
+  font-weight: 600;
+  margin: 1em 0.6em;
+}
+
+.toggler-btn {
+  width: 30px;
+  height: 30px;
+  /* background-color: blue; */
+}
+
+.navbar-toggler {
+  border: none;
+}
+
+.heading {
+  display: flex;
+  height: 100%;
+  flex-flow: column;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+.heading h1 {
+  color: rgb(4, 21, 78);
+  text-transform: capitalize;
+  font-weight: 600;
+}
+.btn-actions {
+  margin: 10px;
+}
+.btn-actions a {
+  font-weight: 600;
+  text-transform: capitalize;
+  margin: 2px 5px;
+  padding: 0.5em 2em;
+  text-decoration: none;
+}
+.btn-actions #about-us {
+  background-color: #080279;
+  color: #fff;
+}
+.btn-actions #contact-us {
+  border: 2px solid #080279;
+  padding: 0.4em 2em;
+  color: #080279;
+}
+
+/* The servixes */
+.services {
+  /* height: 100%; */
+  padding: 80px 10px;
+}
+.services i {
+  font-size: 30px;
+  text-align: center;
+  margin: 20px;
+  color: #080279;
+}
+.headers h1 {
+  font-weight: 600;
+  color: #080279;
+}
+/* The Why US */
+.why-us {
+  background-color: #080279;
+  padding: 20px;
+  color: #fff;
+  display: flex;
+  flex-flow: row;
+  clip-path: polygon(0 0, 100% 0, 100% 100%, 0 95%);
+  justify-content: center;
+  align-items: center;
+}
+.why-us > p {
+  padding-top: 50px;
+}
+.why-us h2 {
+  font-weight: 600;
+}
+.why-us img {
+  width: 100%;
+}
+.why-us a {
+  background-color: #fff;
+  padding: 0.5em 1em;
+  border-radius: 4px;
+  text-decoration: none;
+  outline: none;
+}
+.projects {
+  margin-top: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.captions h1 {
+  text-align: center;
+  font-size: 50px;
+  color: #080279;
+  font-weight: 900;
+}
+/* Testimonials */
+.testimonials {
+  clip-path: polygon(0 0, 100% 11%, 100% 100%, 0% 100%);
+  color: #fff;
+  background-color: #080279;
+}
+.testimonials .headers h1 {
+  margin: 80px 0px 0px 0px;
+  color: #fff !important;
+}
+.testi-card {
+  margin: 10px 130px;
+  text-align: center;
+}
+.testi-card h1 {
+  font-weight: normal;
+  margin-bottom: 20px;
+}
+/* The contacts */
+
+.contacts-content img {
+  width: 100%;
+}
+.contacts-content i {
+  color: #080279;
+}
+.forms form {
+  width: 100%;
+}
+.message-field label {
+  font-weight: 100;
+  color: rgb(4, 21, 78);
+}
+.message-field input {
+  display: block;
+  width: 100%;
+  padding: 0.2em 1em;
+  border: 1px solid #08027977;
+  outline: none;
+  box-shadow: 0 0 3px rgba(0, 1, 31, 0.548);
+  /* outline: 3px solid #08062723; */
+  border-radius: 3px;
+}
+
+.message-field textarea {
+  display: block;
+  width: 100%;
+  padding: 0.2em 1em;
+  border: 1px solid #08027977;
+  outline: none;
+  box-shadow: 0 0 3px rgba(0, 1, 31, 0.548);
+  /* outline: 3px solid #08062723; */
+  border-radius: 3px;
+}
+.message-field button {
+  border: none;
+  padding: 0.4em 1em;
+  border-radius: 4px;
+  background-color: rgb(4, 21, 78);
+  color: #fff;
+  margin: 10px 0;
+}
+.my-footer {
+  padding: 50px 0px;
+  background-color: #080279;
+  color: #fff;
+}
+.my-footer p {
+  margin: 0;
+  padding: 2px 10px;
+}
+
+.my-footer .list {
+  list-style: none;
+  padding: 10px;
+}
+.list li {
+  font-size: 15px;
+}
+@media only screen and (max-width: 600px) {
+  .my-footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 60px 40px;
+  }
+  input {
+    padding: 0.4em 1em !important;
+  }
+  .testi-card {
+    margin: 10px 10px;
+  }
+  .brands .headers {
+    padding: 0 !important;
+  }
+  .brands img {
+    width: 50%;
+    margin: 30px 6.25rem !important;
+  }
+  .why-us {
+    padding: 20px;
+  }
+  .heading {
+    padding-top: 80px;
+  }
+  .projects {
+    flex-flow: column;
+  }
+  .projects > .captions {
+    margin-top: 20px;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+}
